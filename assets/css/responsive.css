@@ -192,6 +192,12 @@
     box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.05);
 }
 
+#page-home .navbar.scrolled #login:hover{
+  border-color: white;
+  -webkit-box-shadow: 0 5px 15px 0 rgba(43,137,130,.3);
+  box-shadow: 0 5px 15px 0 rgba(43,137,130,.3);
+}
+
 #page-request-demo .navbar .nav-link#contact-us,
 #page-request-demo .navbar .nav-link#login,
 #page-request-demo .navbar .nav-link#free-signup {
@@ -513,6 +519,10 @@
 @media (min-width: 1920px) {
   #home-background{
     background-size: 60%;
+  }
+
+  footer{
+    padding: 0 10rem;
   }
 }
 /* 1920 and above*/

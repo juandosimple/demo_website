@@ -519,12 +519,37 @@
 
 /* 1920 and above*/
 @media (min-width: 1920px) {
+  .container {
+    max-width: 1600px; /* Aumenta el tamaño del contenedor para pantallas grandes */
+  }
+  body p{
+    font-size: 1.3rem;
+    line-height: 2.08rem;;
+  }
   #home-background{
     background-size: 60%;
   }
 
   footer{
-    padding: 0 10rem;
+    padding: 3rem 10rem;
   }
+
+  .full-height.first-section .home-buttons_container .secondary-buttons{
+    width: 60%;
+  }
+
+  #faqs .accordion-button{
+    font-size: 1.2rem;
+    line-height: 2.08rem;
+  }
+
+  #faqs .accordion-body{
+    font-size: 1.2rem;
+    line-height: 2.08rem;
+  }
+
+  .section-with_buttons.special .secondary-buttons {
+    width: 22%;
+}
 }
 /* 1920 and above*/

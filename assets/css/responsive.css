@@ -473,5 +473,33 @@
     padding-bottom: 1rem;
   }
   /* Footer */
+
+  /* Thank you */
+  #thankyou-container{
+    margin-top:10rem;
+    margin-bottom: 10rem;
+    min-height: auto;
+  }
+  #thankyou-container .col-lg-8{
+    display: flex;
+  }
+  #thankyou-container img{
+    width: 400px;
+  }
+  #thankyou-container .text-container{
+    padding-left:3rem;
+    text-align: left;
+  }
+
+  #thankyou-container a{
+    border:1px solid #D5D7DA;
+    border-radius: 20px;
+    text-align: center;
+    padding: 1rem;
+    max-width: 230px;
+  }
+
+  
+  /* Thank you */
 }
 /* desktop and above */

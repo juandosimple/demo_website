@@ -653,3 +653,36 @@ footer .footer-social p {
   margin-bottom: 3rem;
 }
 /* Request container */
+
+/* Thank you container */
+#thankyou-container{
+  min-height: 100vh;
+  margin-top:5rem;
+  text-align: center;
+}
+
+#thankyou-container h1{
+  font-size: 1.875rem;
+  font-weight: 700;
+  color:#0E4B47;
+}
+
+#thankyou-container .second-text-container{
+  margin-top: 3rem;
+}
+
+#thankyou-container h3{
+  font-size: 1rem;
+  font-weight: 600;
+  color:#0E4B47;
+}
+
+#thankyou-container a{
+  font-size: 1rem;
+  font-weight: 500;
+  color:#414651;
+  text-decoration: none;
+  margin-top: 2rem;
+  display: block
+}
+/* Thank you container */

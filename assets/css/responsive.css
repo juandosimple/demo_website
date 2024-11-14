@@ -60,7 +60,7 @@
   #home-background {
     background: url("../img/background.svg");
     background-repeat: no-repeat;
-    background-size: 60%;
+    background-size: 70%;
   }
 
   #home #home-top_stats div:nth-child(3) {

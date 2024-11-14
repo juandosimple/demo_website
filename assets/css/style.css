@@ -589,6 +589,19 @@ footer .footer-social p {
   color: #414651;
   font-weight: 600;
   font-size: 1rem;
+  -webkit-transition: all .3s ease-in-out;
+-moz-transition: all .3s ease-in-out;
+-ms-transition: all .3s ease-in-out;
+-o-transition: all .3s ease-in-out;
+transition: all .3s ease-in-out;
+}
+.section-with_buttons.special .secondary-buttons a:hover{
+  border-color: #0E4B47;
+  color: #414651;
+  font-weight: 600;
+  font-size: 1rem;
+  -webkit-box-shadow: 0 5px 15px 0 rgba(43,137,130,.3);
+  box-shadow: 0 5px 15px 0 rgba(43,137,130,.3);
 }
 
 /* Section with Buttons */

@@ -508,3 +508,11 @@
   /* Thank you */
 }
 /* desktop and above */
+
+/* 1920 and above*/
+@media (min-width: 1920px) {
+  #home-background{
+    background-size: 60%;
+  }
+}
+/* 1920 and above*/

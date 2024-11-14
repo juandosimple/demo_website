@@ -283,26 +283,34 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#191c21",endCo
   position: relative;
   width: 50%;
 }
-#home-second-part h1 {
+#home #home-top_stats h1 {
   font-size: 2.5rem;
   text-align: center;
   color: #191c21;
   font-weight: 800;
 }
-#home-second-part h1 span {
+#home #home-top_stats h1 span {
   font-size: 1rem;
 }
-#home-second-part h3 {
+#home #home-top_stats h3 {
   font-size: 1.125rem;
   font-weight: 400;
 }
-#home-second-part span.mini-separator {
+#home #home-top_stats span.mini-separator {
   width: 20%;
   height: 1px;
   background-color: #d2d6db;
   display: block;
   position: relative;
   margin: 2rem auto;
+}
+
+
+#home #home-top_stats{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Home Second Part */

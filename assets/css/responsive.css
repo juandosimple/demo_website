@@ -60,6 +60,7 @@
   #home-background {
     background: url("../img/background.svg");
     background-repeat: no-repeat;
+    background-size: 60%;
   }
 
   #home #home-top_stats div:nth-child(3) {
@@ -136,6 +137,10 @@
     display: flex;
   }
 
+  #video-part .video-part_card video{
+    width: 50%;
+  }
+
   #home section#video-part .video-part_block {
     align-items: center;
   }
@@ -199,7 +204,6 @@
   .navbar.scrolled {
     background-color: #1a1c21 !important; /* Cambia este color según lo que desees */
   }
-  .navbar .nav-link#contact-us,
   .navbar .nav-link#login,
   .navbar .nav-link#free-signup {
     color: #1a1c21 !important; /* Cambia este color según lo que desees */
@@ -326,6 +330,7 @@
   /* Experts*/
   #experts {
     width: 100%;
+    padding: 0;
   }
   #experts {
     display: flex;
@@ -350,6 +355,7 @@
   #experts .experts-card img {
     width: 100%;
     border-radius: 0;
+    max-width: none;
   }
   #experts .experts-card div {
     position: absolute;

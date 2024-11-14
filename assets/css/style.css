@@ -730,3 +730,38 @@ transition: all .3s ease-in-out;
 
 
 /* Thank you container */
+
+/* animated button*/
+.section-with_buttons.special .cta-button_primary {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border: 0;
+  background: linear-gradient(317.42deg, #04504e -11.84%, #022221 110.79%);
+  font-weight: 600;
+  color: #fff;
+}
+
+.cta-button_primary .button-text,
+.cta-button_primary .button-text-hover {
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.cta-button_primary .button-text-hover {
+  position: absolute;
+  top: 100%;
+}
+
+.cta-button_primary:hover .button-text {
+  transform: translateY(-200%);
+}
+
+.cta-button_primary:hover .button-text-hover {
+  transform: translateY(-200%);
+  color:#b8ef36
+}
+
+/* animated button*/

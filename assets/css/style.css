@@ -509,6 +509,8 @@ footer .footer-social p {
 /* Section with Buttons */
 .section-with_buttons.special {
   margin: 2rem 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 .section-with_buttons.special .cta-button_primary {
   border: 0;

@@ -247,16 +247,21 @@
     width: 100% !important;
   }
   .section-with_buttons.special .cta-button_primary {
-    max-width: 200px;
+    max-width: 250px;
     margin: 0 1rem;
+    border-radius: 20px;
+    padding-top:1.3rem;
+    padding-bottom:1.3rem;
   }
   .section-with_buttons.special .secondary-buttons {
     justify-content: center;
     align-items: center;
-    width: 36%;
+    width: 26%;
   }
   .section-with_buttons.special .secondary-buttons a {
     margin: 0 1rem;
+    border-radius: 20px;
+    max-width: 160px;
   }
   /* Buttons */
 

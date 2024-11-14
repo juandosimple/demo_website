@@ -353,39 +353,41 @@
     width: 100%;
   }
   #experts .experts-card {
-    width: 33%;
+    width: 50%;
+    overflow: hidden;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    box-shadow:none;
+    border:0;
   }
-  #experts .experts-card::after {
-    position: absolute;
-    background-color: #00000085;
-    width: 100%;
-    height: 100%;
-    content: "";
-  }
+  
   #experts .experts-card img {
     width: 100%;
-    border-radius: 0;
+    border-radius: 32px;
     max-width: none;
+    overflow: hidden;
   }
   #experts .experts-card div {
-    position: absolute;
-    bottom: 0;
     display: flex;
     flex-wrap: wrap;
     z-index: 1;
   }
   #experts .experts-card h3 {
     width: 100%;
-    color: #fff;
+    margin-top: 1rem;
+    color: #0E4B47;
+    font-size: 1.5rem;
   }
   #experts .experts-card p {
-    color: #fff;
+    color: #0E4B47;
+    font-size: 1.25rem;
   }
   #experts .experts-card a {
-    max-width: 50px;
-    margin: 0 0 0 auto;
-    margin-bottom: 1rem;
+    display: block;
+    /* max-width: 50px; */
+    /* margin: 0 0 0 auto; */
+    /* margin-bottom: 1rem; */
   }
   .modal{
     background: #00000091;

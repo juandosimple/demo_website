@@ -280,13 +280,13 @@ section.full-height {
   margin-left: 1rem;
 }
 
-#experts .experts-card img:last-child {
+/* #experts .experts-card img:last-child {
   border-radius: 0;
   margin: 0 0 0 auto;
   display: block;
   max-width: 50px;
   margin-bottom: 10px;
-}
+} */
 
 .modal-dialog video{
   max-width: 100%;

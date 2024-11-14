@@ -198,6 +198,8 @@ section.full-height {
 #experts img {
   border-top-left-radius: 14px;
   border-bottom-left-radius: 14px;
+  width: 100%;
+  max-width: 100px;
 }
 
 #experts div {

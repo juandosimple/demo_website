@@ -3,6 +3,14 @@
   #page-home .navbar #login {
     display: block;
     opacity: 1;
+    border: 1px solid #D5D7DA;
+    border-radius: 14px;
+    margin-right: 10px;
+  }
+  #page-home .navbar #free-signup {
+    background: linear-gradient(317.42deg, #04504E -11.84%, #022221 110.79%);
+    border-radius: 14px;
+    color:#fff!important
   }
 }
 /* tablet and above*/
@@ -184,7 +192,9 @@
 #page-request-demo .navbar .nav-link#free-signup {
   color: #fff !important; /* Cambia este color según lo que desees */
 }
-
+  .login-button{
+    display: none;
+  }
 
   .navbar.scrolled {
     background-color: #1a1c21 !important; /* Cambia este color según lo que desees */

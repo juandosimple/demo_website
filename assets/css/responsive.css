@@ -371,10 +371,22 @@
   #experts .experts-card p {
     color: #fff;
   }
-  #experts .experts-card img:last-child {
+  #experts .experts-card a {
     max-width: 50px;
+    margin: 0 0 0 auto;
     margin-bottom: 1rem;
   }
+  .modal{
+    background: #00000091;
+  }
+  .modal-dialog .modal-content{
+    background: transparent;
+  }
+  .modal-dialog video{
+    max-width: 80%;
+    margin:0 auto
+  }
+  
   /* Experts*/
 
   /* Features */

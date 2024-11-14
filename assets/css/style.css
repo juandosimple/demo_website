@@ -40,12 +40,6 @@ body {
   display: none;
   opacity: 0;
 }
-@media (min-width: 769px) {
-  #page-home .navbar #login {
-    display: block;
-    opacity: 1;
-  }
-}
 
 #home{
   padding-top: 80px;
@@ -63,6 +57,7 @@ section.full-height {
   background-color: #191c21;
   color: #fff;
 }
+
 .first-title,
 .first-subtitle {
   text-align: center;

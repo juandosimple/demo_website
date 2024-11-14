@@ -1,0 +1,35 @@
+/* tablet and above*/
+@media (min-width: 769px) {
+  #page-home .navbar #login {
+    display: block;
+    opacity: 1;
+  }
+}
+/* tablet and above*/
+
+
+/* desktop and above */
+@media (min-width: 1280px) {
+  #home .row{
+    display: flex;
+  }
+
+  #home section{
+    width: 45%;
+  }
+
+  #home #home-top_stats{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .first-section {
+    background-color: transparent;
+  }
+
+  #home-second-part .home-top{
+    background:transparent;
+  }
+
+}
+/* desktop and above */

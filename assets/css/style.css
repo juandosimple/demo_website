@@ -9,6 +9,7 @@ body {
   background-color: rgba(25, 28, 33, 1) !important;
   box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.05);
 }
+
 #page-home .navbar .nav-link.login-button{
   color:#b8ef36
 }
@@ -597,4 +598,21 @@ footer .footer-social p {
   height: 44px;
   background-position: center;
 }
+
+#faqs .accordion-button:not(.collapsed) {
+  background-color: #2b8982;
+  color: #fff;
+  box-shadow:none
+}
 /* FAQS */
+
+/* Request container */
+#request-container{
+  min-height: 100vh;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+#request-container h1{
+  margin-bottom: 3rem;
+}
+/* Request container */

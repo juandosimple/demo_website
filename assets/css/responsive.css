@@ -167,6 +167,25 @@
   /* card */
 
   /* navigagtion */
+
+
+  #page-request-demo .navbar  {
+    background-color: #1a1c21 !important; /* Cambia este color según lo que desees */
+    box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.05);
+}
+
+  #page-request-demo .navbar.scrolled  {
+    background-color: #1a1c21 !important; /* Cambia este color según lo que desees */
+    box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.05);
+}
+
+#page-request-demo .navbar .nav-link#contact-us,
+#page-request-demo .navbar .nav-link#login,
+#page-request-demo .navbar .nav-link#free-signup {
+  color: #fff !important; /* Cambia este color según lo que desees */
+}
+
+
   .navbar.scrolled {
     background-color: #1a1c21 !important; /* Cambia este color según lo que desees */
   }

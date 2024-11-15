@@ -1,0 +1,57 @@
+/* tablet and above*/
+@media (min-width: 1024px) {
+  #home {
+    padding-top: 170px;
+  }
+  #home-background {
+    background: rgb(25, 28, 33);
+    background: -moz-linear-gradient(
+      180deg,
+      rgba(25, 28, 33, 1) 0%,
+      rgba(25, 28, 33, 1) 69%,
+      rgba(25, 28, 33, 0) 69%
+    );
+    background: -webkit-linear-gradient(
+      180deg,
+      rgba(25, 28, 33, 1) 0%,
+      rgba(25, 28, 33, 1) 69%,
+      rgba(25, 28, 33, 0) 69%
+    );
+    background: linear-gradient(
+      180deg,
+      rgba(25, 28, 33, 1) 0%,
+      rgba(25, 28, 33, 1) 69%,
+      rgba(25, 28, 33, 0) 69%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#191c21",endColorstr="#191c21",GradientType=1);
+  }
+
+  .home-buttons_container {
+    width: 100%;
+    display: flex;
+    max-width: 70%;
+  }
+
+  .home-buttons_container .cta-button_primary {
+    max-width: 250px;
+    margin-right: 3rem;
+  }
+
+  .first-title h1 {
+    font-size: 3.625rem;
+    text-align: center;
+  }
+
+  .text-container h1 {
+    font-size: 3.625rem;
+    width: 100%;
+  }
+
+  .first-subtitle {
+    max-width: 70%;
+  }
+  .first-subtitle h3 {
+    font-size: 1.25rem;
+  }
+}
+/* tablet and above*/

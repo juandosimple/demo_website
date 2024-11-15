@@ -359,15 +359,16 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#191c21",endCo
 }
 #home-second-part div:nth-child(1) img:first-child {
   position: relative;
-  width: 50%;
+  width: 55%;
 }
 #home-second-part div:nth-child(1) .video-thumb {
   position: relative;
   overflow: hidden;
-  width: 45%;
+  width: 42%;
+  margin: 0;
 }
 #home-second-part .video-thumb video {
-  width:250%;
+  width:120%;
 }
 #home-second-part div:nth-child(2) img:last-child {
   position: relative;
@@ -376,6 +377,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#191c21",endCo
 #home-second-part div:nth-child(2) .video-thumb {
   position: relative;
   width: 35%;
+  margin-left: 1.3rem;
 }
 /* Home Second Part */
 

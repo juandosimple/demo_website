@@ -499,59 +499,136 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#191c21",endCo
 /* Video Part */
 
 /* Platform */
-#platform .first-box {
-  background-image: url("../img/platform-compliance-training.jpg");
+/* Contenedor principal */
+#platform {
+  display: flex;
+  justify-content: space-around;
+  gap: 0;
+  width: 70%;
+  margin: 0 auto;
+  overflow: hidden;
 }
-#platform div {
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 2rem 1rem;
+
+/* Configuración de columnas */
+#platform .box {
+  flex: 1;
+  max-width: 150px;
+  height: 550px;
+  overflow: hidden;
   position: relative;
+  background-color: #333; /* Color de fondo temporal */
+  transition: all 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
 }
-#platform div:before {
-  background-color: rgba(0, 0, 0, 0.8);
+
+/* Estilo del h1 en las columnas */
+#platform .box h1 {
+  position: absolute;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 600;
+  transform: rotate(270deg);
+  transform-origin: center;
+  white-space: nowrap;
+  transition: transform 0.3s ease;
+  bottom: 120px;
+}
+
+/* Ocultación inicial del párrafo */
+#platform .box p {
+  position: absolute;
+  bottom: -50px; /* Inicialmente oculto */
+  left: 0;
+  right: 0;
+  color: #fff;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.3s ease;
+  padding: 1rem;
+}
+
+#platform  .box:before {
   content: "";
   width: 100%;
   height: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: 0;
-}
-#platform div p {
-  margin: 0;
-  position: relative;
-  color: #fff;
-  font-weight: 600;
-  padding: 1rem;
-}
-#platform h1 {
-  position: relative;
-  color: #fff;
-  margin-bottom: 2rem;
-  font-weight: bold;
-  padding: 1rem;
-}
-#platform .second-box {
-  background-image: url("../img/platform-onboarding.jpg");
-}
-#platform .third-box {
-  background-image: url("../img/platform-partner-training.jpg");
-}
-#platform .fourth-box {
-  background-image: url("../img/platform-sales-enablement.jpg");
-}
-#platform .fifth-box {
-  background-image: url("../img/platform-upskill-reskill.jpg");
-}
-/* Platform */
-
-/* Footer */
-footer {
-  background-color: #191c21;
+  background: linear-gradient(
+    to bottom,
+    rgba(234, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
-footer ul {
+/* Hover en las columnas */
+#platform .box:hover {
+  flex: 0 0 390px; /* Expande la columna a 390px */
+  max-width: 100%; /* Permite flexibilidad adicional */
+}
+#platform .box.first-box {
+  background:url('../img/platform-compliance-training.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#platform .box.first-box h1{
+  bottom: 170px;
+}
+#platform .box.second-box h1{
+  bottom: 100px;
+}
+#platform .box.third-box h1{
+  bottom: 140px;
+}
+#platform .box.fourth-box h1{
+  bottom: 160px;
+}
+#platform .box.fifth-box h1{
+  bottom: 200px;
+}
+#platform .box.second-box {
+  background:url('../img/platform-onboarding.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#platform .box.third-box {
+  background:url('../img/platform-partner-training.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#platform .box.fourth-box {
+  background:url('../img/platform-sales-enablement.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#platform .box.fifth-box {
+  background:url('../img/platform-upskill-reskill.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#platform .box:hover h1 {
+  transform: rotate(360deg); /* Se rota horizontalmente */
+}
+
+#platform .box:hover p {
+  opacity: 1;
+  transform: translateY(0);
+  bottom: 10px; /* Se posiciona visible */
+}
+
+.expanded {
+  width: 390px; /* Mantén el tamaño expandido hasta que otro box sea hover */
+}
+  /* Platform */
+  
+  /* Footer */
+  footer {
+    background-color: #191c21;
+  }
+  
+  footer ul {
   list-style: none;
   margin: 0;
   padding: 0;

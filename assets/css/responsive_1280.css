@@ -291,58 +291,7 @@
   /* Buttons */
 
   /* Platform */
-  #platform {
-    display: flex;
-    width: 70%;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    margin: 0 auto;
-  }
-  #platform div {
-    width: 19%;
-    border-radius: 24px;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    min-height: 550px;
-  }
-  #platform div h1 {
-    transform: rotate(-90deg);
-    white-space: nowrap;
-    font-size: 2.5rem;
-  }
-  #platform div p {
-    opacity: 0;
-    display: none;
-  }
-  #platform div:before {
-    background: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0) 0%,
-      rgba(0, 0, 0, 1) 100%
-    ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  }
 
-  #platform .first-box h1 {
-    bottom: 140px;
-  }
-
-  #platform .second-box h1 {
-    bottom: 50px;
-  }
-
-  #platform .third-box h1 {
-    bottom: 90px;
-  }
-
-  #platform .fourth-box h1 {
-    bottom: 110px;
-  }
-
-  #platform .fifth-box h1 {
-    bottom: 155px;
-  }
   /* Platform */
 
   /* Platform Title*/

@@ -21,10 +21,25 @@
     padding-top: 170px;
   }
   #home-background {
-    background: rgb(25,28,33);
-    background: -moz-linear-gradient(180deg, rgba(25,28,33,1) 0%, rgba(25,28,33,1) 69%, rgba(25,28,33,0) 69%);
-    background: -webkit-linear-gradient(180deg, rgba(25,28,33,1) 0%, rgba(25,28,33,1) 69%, rgba(25,28,33,0) 69%);
-    background: linear-gradient(180deg, rgba(25,28,33,1) 0%, rgba(25,28,33,1) 69%, rgba(25,28,33,0) 69%);
+    background: rgb(25, 28, 33);
+    background: -moz-linear-gradient(
+      180deg,
+      rgba(25, 28, 33, 1) 0%,
+      rgba(25, 28, 33, 1) 69%,
+      rgba(25, 28, 33, 0) 69%
+    );
+    background: -webkit-linear-gradient(
+      180deg,
+      rgba(25, 28, 33, 1) 0%,
+      rgba(25, 28, 33, 1) 69%,
+      rgba(25, 28, 33, 0) 69%
+    );
+    background: linear-gradient(
+      180deg,
+      rgba(25, 28, 33, 1) 0%,
+      rgba(25, 28, 33, 1) 69%,
+      rgba(25, 28, 33, 0) 69%
+    );
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#191c21",endColorstr="#191c21",GradientType=1);
   }
 
@@ -34,7 +49,7 @@
     max-width: 70%;
   }
 
-  .home-buttons_container .cta-button_primary{
+  .home-buttons_container .cta-button_primary {
     max-width: 250px;
     margin-right: 3rem;
   }
@@ -91,7 +106,7 @@
   #stats #home-top_stats {
     display: flex;
     flex-direction: row;
-    max-width: 70%;
+    max-width: 60%;
     margin: 2rem auto;
   }
 
@@ -170,14 +185,18 @@
   .full-height.first-section .home-buttons_container {
     width: 100%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
-    margin: 3rem 0;
-    max-width: none;
+    margin: 3rem auto 3rem 0;
+    max-width: 70%;
   }
 
   .full-height.first-section .home-buttons_container a {
     margin: 0;
+  }
+
+  .full-height.first-section .home-buttons_container a.cta-button_secondary {
+    max-width: 160px;
   }
 
   .full-height.first-section .home-buttons_container .secondary-buttons {
@@ -616,6 +635,9 @@
     );
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#191c21",endColorstr="#191c21",GradientType=1);
   }
+  .full-height.first-section .home-buttons_container {
+    max-width: 80%;
+  }
 }
 /* 1920 and above*/
 /* 1920 and above*/
@@ -625,22 +647,28 @@
     background: -moz-linear-gradient(
       90deg,
       rgba(25, 28, 33, 1) 0%,
-      rgba(25, 28, 33, 1) 69.4%,
+      rgba(25, 28, 33, 1) 69.7%,
       rgba(25, 28, 33, 0) 65%
     );
     background: -webkit-linear-gradient(
       90deg,
       rgba(25, 28, 33, 1) 0%,
-      rgba(25, 28, 33, 1) 69.4%,
+      rgba(25, 28, 33, 1) 69.7%,
       rgba(25, 28, 33, 0) 65%
     );
     background: linear-gradient(
       90deg,
       rgba(25, 28, 33, 1) 0%,
-      rgba(25, 28, 33, 1) 69.4%,
+      rgba(25, 28, 33, 1) 69.7%,
       rgba(25, 28, 33, 0) 65%
     );
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#191c21",endColorstr="#191c21",GradientType=1);
+  }
+  .full-height.first-section .home-buttons_container {
+    max-width: 70%;
+  }
+  #home {
+    padding-top: 80px;
   }
   .container {
     max-width: 1600px; /* Aumenta el tamaño del contenedor para pantallas grandes */
@@ -674,5 +702,13 @@
   .section-with_buttons.special .secondary-buttons {
     width: 22%;
   }
+  #home-second-part .video-thumb video{
+    width: 160%;
+  }
+  #home-second-part div:nth-child(2) .video-thumb{
+    width:38%
+  }
+
+
 }
 /* 1920 and above*/

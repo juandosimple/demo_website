@@ -42,42 +42,58 @@
     width: 45%;
   }
 
-  #home #home-top_stats {
+  #stats #home-top_stats {
     display: flex;
     flex-direction: row;
+    max-width: 70%;
+    margin:2rem auto;
   }
 
-  #home #home-top_stats div:nth-child(1) {
+  #stats #home-top_stats div:nth-child(1) {
     order: 2;
   }
 
-  #home #home-top_stats span.mini-separator:nth-child(2) {
+  #stats #home-top_stats span.mini-separator:nth-child(2) {
     order: 3;
     transform: rotate(90deg);
     width: 5%;
   }
 
   #home-background {
-    background: url("../img/background.svg");
-    background-repeat: no-repeat;
-    background-size: 70%;
+    /* background: url("../img/background.svg"); */
+    background: rgb(25,28,33);
+    background: -moz-linear-gradient(90deg, rgba(25,28,33,1) 0%, rgba(25,28,33,1) 87%, rgba(25,28,33,0) 87%);
+    background: -webkit-linear-gradient(90deg, rgba(25,28,33,1) 0%, rgba(25,28,33,1) 87%, rgba(25,28,33,0) 87%);
+    background: linear-gradient(90deg, rgba(25,28,33,1) 0%, rgba(25,28,33,1) 87%, rgba(25,28,33,0) 87%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#191c21",endColorstr="#191c21",GradientType=1);
   }
 
-  #home #home-top_stats div:nth-child(3) {
+  #stats #home-top_stats div:nth-child(3) {
     order: 4;
   }
 
-  #home #home-top_stats span.mini-separator:nth-child(4) {
+  #stats #home-top_stats span.mini-separator:nth-child(4) {
     order: 5;
     transform: rotate(90deg);
     width: 5%;
   }
 
-  #home #home-top_stats div:nth-child(5) {
+  #stats #home-top_stats div:nth-child(5) {
     order: 6;
   }
 
-  #home #home-top_stats span.mini-separator:nth-child(6) {
+  #stats #home-top_stats span.mini-separator:nth-child(6) {
+    order: 1;
+    transform: rotate(90deg);
+    width: 5%;
+  }
+
+  #stats #home-top_stats span.mini-separator.invisible {
+    display: none;
+  }
+
+
+  #stats #home-top_stats span.mini-separator:nth-child(6) {
     order: 1;
     transform: rotate(90deg);
     width: 5%;
@@ -518,6 +534,17 @@
 /* desktop and above */
 
 /* 1920 and above*/
+@media (min-width: 1440px) {
+  #home-background{
+    background: rgb(25,28,33);
+    background: -moz-linear-gradient(90deg, rgba(25,28,33,1) 0%, rgba(25,28,33,1) 69%, rgba(25,28,33,0) 69%);
+    background: -webkit-linear-gradient(90deg, rgba(25,28,33,1) 0%, rgba(25,28,33,1) 69%, rgba(25,28,33,0) 69%);
+    background: linear-gradient(90deg, rgba(25,28,33,1) 0%, rgba(25,28,33,1) 69%, rgba(25,28,33,0) 69%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#191c21",endColorstr="#191c21",GradientType=1);
+  }
+}
+/* 1920 and above*/
+/* 1920 and above*/
 @media (min-width: 1920px) {
   .container {
     max-width: 1600px; /* Aumenta el tamaño del contenedor para pantallas grandes */
@@ -527,7 +554,7 @@
     line-height: 2.08rem;;
   }
   #home-background{
-    background-size: 60%;
+    /* background-size: 60%; */
   }
 
   footer{

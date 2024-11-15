@@ -372,20 +372,23 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#191c21",endCo
   position: relative;
   width: 35%;
 }
-#home #home-top_stats h1 {
+/* Home Second Part */
+
+/* Home Stats */
+#stats #home-top_stats h1 {
   font-size: 2.5rem;
   text-align: center;
   color: #191c21;
   font-weight: 800;
 }
-#home #home-top_stats h1 span {
+#stats #home-top_stats h1 span {
   font-size: 1rem;
 }
-#home #home-top_stats h3 {
+#stats #home-top_stats h3 {
   font-size: 1.125rem;
   font-weight: 400;
 }
-#home #home-top_stats span.mini-separator {
+#stats #home-top_stats span.mini-separator {
   width: 20%;
   height: 1px;
   background-color: #d2d6db;
@@ -395,14 +398,13 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#191c21",endCo
 }
 
 
-#home #home-top_stats{
+#stats #home-top_stats{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-
-/* Home Second Part */
+/* Home Stats */
 
 /* Video Part */
 #video-part {
@@ -416,9 +418,9 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#191c21",endCo
 }
 
 #video-part .video-part_block video {
-  max-width: 100%;
+  max-width: 90%;
   border-radius: 1.875rem;
-  transform: perspective(2030px) rotateY(25deg);
+  /* transform: perspective(2030px) rotateY(25deg); */
   position: relative;
   z-index: 1;
 }

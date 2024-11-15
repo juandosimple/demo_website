@@ -41,6 +41,11 @@ body {
   margin:0 auto 0 0;
 }
 
+.navbar>.container-fluid .navbar-brand img{
+  width: 100%;
+  max-width: 100px;
+}
+
 #page-home .navbar-toggler,#page-home .navbar-toggler:focus,#page-home .navbar-toggler:active{
   border:0;
   box-shadow:none;
@@ -419,6 +424,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#191c21",endCo
 
 #video-part .video-part_block video {
   max-width: 90%;
+  width: 100%;
   border-radius: 1.875rem;
   /* transform: perspective(2030px) rotateY(25deg); */
   position: relative;

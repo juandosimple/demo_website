@@ -74,6 +74,9 @@
     font-size: 4rem;
     text-align: left;
   }
+  #home .first-subtitle {
+    max-width: none;
+  }
   #home .first-subtitle h3 {
     font-size: 1.5rem;
     text-align: left;
@@ -170,6 +173,7 @@
     justify-content: flex-start;
     align-items: center;
     margin: 3rem 0;
+    max-width: none;
   }
 
   .full-height.first-section .home-buttons_container a {
@@ -181,7 +185,7 @@
   }
 
   .full-height.first-section .home-buttons_container .secondary-buttons a {
-    margin: 0 2rem;
+    margin: 0 1rem;
     max-width: 160px;
   }
 

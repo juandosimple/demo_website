@@ -345,7 +345,6 @@
     align-items: center;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    width: 100% !important;
   }
   .section-with_buttons.special .cta-button_primary {
     max-width: 250px;

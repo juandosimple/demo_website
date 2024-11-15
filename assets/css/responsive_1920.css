@@ -67,6 +67,9 @@
     width:38%
   }
 
+  #features .features {
+    padding: 0 10rem;
+}
 
 }
 /* 1920 and above*/

@@ -653,10 +653,10 @@ transition: all .3s ease-in-out;
 .features span.features-divider {
   background-color: #2b8982;
   position: relative;
-  height: 3px;
-  width: 20%;
+  height: 5px;
+  width: 15%;
   display: block;
-  margin: 2rem 0;
+  margin: 5rem 0;
 }
 .features h1 {
   margin: 2rem 0;

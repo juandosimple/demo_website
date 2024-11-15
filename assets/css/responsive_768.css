@@ -5,12 +5,18 @@
     opacity: 1;
     border: 1px solid #d5d7da;
     border-radius: 14px;
+    max-height: 52px;
+    display: flex;
+    align-items: center;
     margin-right: 10px;
   }
   #page-home .navbar #free-signup {
     background: linear-gradient(317.42deg, #04504e -11.84%, #022221 110.79%);
     border-radius: 14px;
     color: #fff !important;
+    max-height: 52px;
+    display: flex;
+    align-items: center;
   }
 }
 /* tablet and above*/

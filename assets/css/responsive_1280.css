@@ -134,7 +134,7 @@
 
   #home section#video-part {
     width: 100%;
-    padding: 0 8rem;
+    /* padding: 0 8rem; */
   }
 
   #home section#video-part h1 {
@@ -192,7 +192,7 @@
 
   #home section#video-part .video-part_card p {
     font-size: 1.25rem;
-    width: 35%;
+    width: 50%;
   }
   /* card */
 
@@ -434,7 +434,7 @@
   }
   #features .features .features-text,
   #features .features img {
-    width: 40%;
+    width: 50%;
     min-width: auto;
     max-width: auto;
   }

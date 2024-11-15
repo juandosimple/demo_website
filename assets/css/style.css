@@ -436,6 +436,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#191c21",endCo
 #video-part .video-container {
   position: relative;
   margin-bottom: 3rem;
+  text-align: center;
 }
 #video-part .video-container::after {
   position: absolute;
@@ -445,7 +446,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#191c21",endCo
   height: 100%;
   background: transparent;
   bottom: 0;
-  left: 0;
+  left: 30px;
   display: block;
   border-radius: 1.875rem;
   z-index: 0;

@@ -53,6 +53,10 @@
     width: 100%;
     display: flex;
     max-width: 70%;
+
+
+    flex-wrap: nowrap;
+    justify-content: space-between;
   }
 
   .home-buttons_container .cta-button_primary {

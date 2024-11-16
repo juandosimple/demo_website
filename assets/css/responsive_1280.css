@@ -2,7 +2,7 @@
 @media (min-width: 1280px) {
   #home {
     padding-top: 80px;
-}
+  }
   .navbar {
     background-color: transparent !important;
     transition: background-color 0.5s ease-in-out; /* Transición suave */
@@ -26,6 +26,15 @@
     font-weight: 400;
     margin-top: 3rem;
     max-width: 72%;
+  }
+
+  .features span.features-divider {
+    background-color: #2b8982;
+    position: relative;
+    height: 5px;
+    width: 15%;
+    display: block;
+    margin: 5rem 0;
   }
 
   #home section {
@@ -277,21 +286,144 @@
     padding-top: 1.3rem;
     padding-bottom: 1.3rem;
   }
- 
+
   .section-with_buttons.special a.cta-button_secondary {
     margin: 0 1rem;
     border-radius: 20px;
     height: 68px;
     max-width: 160px;
-    border:1px solid #D5D7DA;
-    color:#414651;
+    border: 1px solid #d5d7da;
+    color: #414651;
     display: flex;
     align-items: center;
   }
-  /* Buttons */
 
-  /* Platform */
+  #platform {
+    display: flex;
+    justify-content: space-around;
+    gap: 0;
+    width: 70%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
 
+  #platform .box {
+    flex: 1;
+    max-width: 150px;
+    height: 550px;
+    overflow: hidden;
+    position: relative;
+    background-color: #333;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+  }
+  #platform .box h1 {
+    position: absolute;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+    transform: rotate(270deg);
+    transform-origin: center;
+    white-space: nowrap;
+    transition: transform 0.3s ease;
+    bottom: 120px;
+  }
+
+  #platform .box p {
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    right: 0;
+    color: #fff;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.3s ease;
+    padding: 1rem;
+  }
+
+  #platform .box:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      to bottom,
+      rgba(234, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 1) 100%
+    );
+  }
+
+  #platform .box:hover {
+    flex: 0 0 390px;
+    max-width: 100%;
+  }
+
+  #platform .box.third-box:hover h1,
+  #platform .box.fourth-box:hover h1,
+  #platform .box.first-box:hover h1,
+  #platform .box.third-box:hover h1,
+  #platform .box.second-box:hover h1 {
+    bottom: 190px;
+  }
+
+
+  #platform .box.first-box {
+    background: url("../img/platform-compliance-training.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  #platform .box.first-box h1 {
+    bottom: 170px;
+  }
+  #platform .box.second-box h1 {
+    bottom: 100px;
+  }
+  #platform .box.third-box h1 {
+    bottom: 140px;
+  }
+  #platform .box.fourth-box h1 {
+    bottom: 160px;
+  }
+  #platform .box.fifth-box h1 {
+    bottom: 200px;
+  }
+  #platform .box.second-box {
+    background: url("../img/platform-onboarding.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  #platform .box.third-box {
+    background: url("../img/platform-partner-training.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  #platform .box.fourth-box {
+    background: url("../img/platform-sales-enablement.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  #platform .box.fifth-box {
+    background: url("../img/platform-upskill-reskill.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  #platform .box:hover h1 {
+    transform: rotate(360deg);
+  }
+
+  #platform .box:hover p {
+    opacity: 1;
+    transform: translateY(0);
+    bottom: 10px;
+  }
+
+  .expanded {
+    width: 390px;
+  }
   /* Platform */
 
   /* Platform Title*/
@@ -387,16 +519,16 @@
     min-width: auto;
     max-width: auto;
   }
-  #features .features.block-left .features-text{
+  #features .features.block-left .features-text {
     order: 2;
   }
-  #features .features.block-left img{
+  #features .features.block-left img {
     order: 1;
   }
-  #features .features.block-right .features-text{
+  #features .features.block-right .features-text {
     order: 1;
   }
-  #features .features.block-right img{
+  #features .features.block-right img {
     order: 2;
   }
   #features .features img {
@@ -407,7 +539,7 @@
     min-width: auto;
     max-width: auto;
   }
-  #features .features .features-text p{
+  #features .features .features-text p {
     font-size: 1.25rem;
     line-height: 1.5;
   }
@@ -491,11 +623,10 @@
     padding: 1rem;
     max-width: 230px;
   }
-  
 
   /* Thank you */
-  #home-second-part .home-top div{
-      margin-bottom: 0;
+  #home-second-part .home-top div {
+    margin-bottom: 0;
   }
 }
 /* desktop and above */

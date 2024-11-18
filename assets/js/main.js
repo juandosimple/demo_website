@@ -65,22 +65,20 @@ setTimeout(changeText, 000); // Espera antes de iniciar el primer cambio
 
 document.addEventListener('DOMContentLoaded', function() {
   const boxes = document.querySelectorAll('.box');
-  let lastExpandedBox = null;  // Variable para almacenar el último box expandido
-
+  let lastExpandedBox = document.querySelector('.box.expanded');  // Initialize with the first box
+  
   boxes.forEach(box => {
-    // Al pasar el mouse sobre un box
-    box.addEventListener('mouseenter', () => {
-      // Si hay un box expandido y no es el mismo, lo cerramos
+    box.addEventListener('click', () => {
+      // If there's an expanded box and it's not the clicked one, collapse it
       if (lastExpandedBox && lastExpandedBox !== box) {
         lastExpandedBox.classList.remove('expanded');
       }
-      // Expande el box actual
-      box.classList.add('expanded');
-      // Guarda el box expandido
-      lastExpandedBox = box;
+      // Toggle expand on the clicked box
+      box.classList.toggle('expanded');
+      // Update the reference to the last expanded box
+      lastExpandedBox = box.classList.contains('expanded') ? box : null;
     });
   });
-
 
   // VIDEO BUTTON
   const videoContainers = document.querySelectorAll('.video-container');

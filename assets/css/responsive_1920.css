@@ -80,5 +80,14 @@
     margin: 2rem auto;
     transform: scale(1.2);
   }
+  #platform{
+    width: 65%;
+  }
+  #platform .box.expanded{
+    flex: 0 0 580px;
+  }
+  #platform .box.expanded h1{
+    bottom: 240px;
+  }
 }
 /* 1920 and above*/

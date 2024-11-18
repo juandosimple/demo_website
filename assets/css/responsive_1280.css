@@ -505,6 +505,7 @@
   #experts {
     width: 100%;
     padding: 0;
+    justify-content: space-around;
   }
   #experts {
     display: flex;
@@ -516,6 +517,7 @@
     width: 100%;
   }
   #experts .experts-card {
+    background-color:transparent;
     width: 40%;
     overflow: hidden;
     position: relative;

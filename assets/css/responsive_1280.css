@@ -280,6 +280,8 @@
     color: #414651;
     display: flex;
     align-items: center;
+    font-weight: 500;
+    justify-content: center;
   }
   .section-with_buttons.special a.cta-button_secondary:hover {
     border-color: #2B8982;
@@ -498,7 +500,7 @@
   }
   #features .features {
     align-items: center;
-    margin-top:2rem;
+    /* margin-top:2rem; */
     margin-bottom:2rem;
   }
   

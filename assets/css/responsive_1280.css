@@ -59,26 +59,10 @@
   }
 
   #home-background {
-    /* background: url("../img/background.svg"); */
-    background: rgb(25, 28, 33);
-    background: -moz-linear-gradient(
-      90deg,
-      rgba(25, 28, 33, 1) 0%,
-      rgba(25, 28, 33, 1) 71.3%,
-      rgba(25, 28, 33, 0) 69%
-    );
-    background: -webkit-linear-gradient(
-      90deg,
-      rgba(25, 28, 33, 1) 0%,
-      rgba(25, 28, 33, 1) 71.3%,
-      rgba(25, 28, 33, 0) 69%
-    );
-    background: linear-gradient(
-      90deg,
-      rgba(25, 28, 33, 1) 0%,
-      rgba(25, 28, 33, 1) 71.3%,
-      rgba(25, 28, 33, 0) 69%
-    );
+    background: rgb(25,28,33);
+    background: -moz-linear-gradient(180deg, rgba(25,28,33,1) 0%, rgba(25,28,33,1) 69%, rgba(25,28,33,0) 69%);
+    background: -webkit-linear-gradient(180deg, rgba(25,28,33,1) 0%, rgba(25,28,33,1) 69%, rgba(25,28,33,0) 69%);
+    background: linear-gradient(180deg, rgba(25,28,33,1) 0%, rgba(25,28,33,1) 69%, rgba(25,28,33,0) 69%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#191c21",endColorstr="#191c21",GradientType=1);
   }
 
@@ -155,7 +139,7 @@
     width: 60%;
   }
   #home section#video-part div:last-child {
-    width: 40%;
+    width: 50%;
   }
 
   #home section#video-part .video-part_block,
@@ -292,10 +276,15 @@
     border-radius: 20px;
     height: 68px;
     max-width: 160px;
-    border: 1px solid #d5d7da;
+    border: 2px solid #d5d7da;
     color: #414651;
     display: flex;
     align-items: center;
+  }
+  .section-with_buttons.special a.cta-button_secondary:hover {
+    border-color: #2B8982;
+    -webkit-box-shadow: 0 5px 15px 0 rgba(43, 137, 130, 0.3);
+    box-shadow: 0 5px 15px 0 rgba(43, 137, 130, 0.3);
   }
 
   #platform {
@@ -453,7 +442,7 @@
     width: 100%;
   }
   #experts .experts-card {
-    width: 50%;
+    width: 40%;
     overflow: hidden;
     position: relative;
     display: flex;
@@ -462,7 +451,7 @@
     border: 0;
   }
 
-  #experts .experts-card img {
+  #experts .experts-card video {
     width: 100%;
     border-radius: 32px;
     max-width: none;

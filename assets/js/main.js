@@ -80,4 +80,34 @@ document.addEventListener('DOMContentLoaded', function() {
       lastExpandedBox = box;
     });
   });
+
+
+  // VIDEO BUTTON
+  const videoContainers = document.querySelectorAll('.video-container');
+
+  videoContainers.forEach(container => {
+    const video = container.querySelector('.video');
+    const playButton = container.querySelector('.play-button');
+
+    // Inicialmente, los controles están ocultos
+    video.controls = false;
+
+    playButton.addEventListener('click', (event) => {
+      event.preventDefault(); // Evita la acción predeterminada del enlace
+      video.play();
+      video.controls = true; // Muestra los controles
+      playButton.classList.add('hidden'); // Oculta el botón de reproducción
+    });
+
+    video.addEventListener('pause', () => {
+      playButton.classList.remove('hidden');
+    });
+
+    video.addEventListener('ended', () => {
+      playButton.classList.remove('hidden');
+      video.controls = false; // Oculta los controles nuevamente al terminar
+    });
+  });
+
 });
+

@@ -729,6 +729,16 @@ footer .footer-social p {
   min-width: 100%;
   max-width: 100%;
 }
+
+#features .col-12{
+  order:1;
+}
+
+#features .features-text{
+  order:2;
+  margin-top:1rem;
+}
+
 .text-align-right {
   text-align: right;
 }

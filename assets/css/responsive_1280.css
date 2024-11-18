@@ -501,10 +501,16 @@
     margin-top:2rem;
     margin-bottom:2rem;
   }
+  
+  #features .col-12{
+    order:unset;
+  }
+  
   #features .features .features-text,
   #features .features img {
     min-width: auto;
     max-width: 100%;
+    margin: 0;
   }
 
   #features .features img {

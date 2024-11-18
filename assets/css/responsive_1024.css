@@ -1,5 +1,18 @@
 /* tablet and above*/
 @media (min-width: 1024px) {
+
+  /* navigation */
+  #page-home .navbar {
+    padding: 1rem 3rem;
+  }
+  #page-home .navbar > .container-fluid{
+    justify-content: center;
+    padding: 0;
+  }
+  #page-home .navbar .nav-link{
+    padding:0.5rem
+  }
+  /* navigation */
   #home {
     padding-top: 170px;
   }

@@ -121,6 +121,10 @@ section.full-height {
   width: 100%;
 }
 
+.text-container h1:last-child {
+  font-weight: 700;
+}
+
 .animated-text {
   position: absolute;
   opacity: 0;

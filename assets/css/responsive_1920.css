@@ -1,5 +1,5 @@
 /* 1920 and above*/
-@media (min-width: 1900px) {
+@media (min-width: 1800px) {
   #page-home .navbar {
     padding: 1rem 12rem;
   }

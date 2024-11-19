@@ -7,7 +7,7 @@
     background-color: transparent !important;
     transition: background-color 0.5s ease-in-out; /* Transición suave */
   }
-  
+
   #page-home .navbar,
   #page-request-demo .navbar {
     padding: 1rem 6.4rem;
@@ -226,7 +226,7 @@
   }
 
   #page-request-demo .navbar.scrolled {
-    background-color: #1a1c21 !important; /* Cambia este color según lo que desees */
+    background-color: rgba(26, 28, 33, 0.9) !important; /* Cambia este color según lo que desees */
     box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.05);
   }
 
@@ -246,7 +246,7 @@
   }
 
   .navbar.scrolled {
-    background-color: #1a1c21 !important; /* Cambia este color según lo que desees */
+    background-color: rgba(26, 28, 33, 0.9) !important; /* Cambia este color según lo que desees */
   }
   .navbar .nav-link#login,
   .navbar .nav-link#free-signup {

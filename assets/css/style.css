@@ -306,7 +306,7 @@ section.full-height {
 #experts .experts-card h3 {
   font-size: 1rem;
   margin-left: 1rem;
-  font-weight: medium;
+  font-weight: 500;
 }
 
 #experts .experts-card p {
@@ -824,6 +824,7 @@ footer .footer-social p {
 }
 #thankyou-container .text-container{
   overflow: visible;
+  height: auto;
 }
 
 #thankyou-container h1 {

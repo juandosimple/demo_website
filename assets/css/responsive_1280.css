@@ -664,7 +664,7 @@
   #thankyou-container {
     margin-top: 10rem;
     margin-bottom: 10rem;
-    min-height: auto;
+    min-height: 50vh;
   }
   #thankyou-container .col-lg-8 {
     display: flex;

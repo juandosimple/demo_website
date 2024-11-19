@@ -74,5 +74,128 @@
   .first-subtitle h3 {
     font-size: 1.25rem;
   }
+  #thankyou-container{
+    margin-top:8rem
+  }
 }
 /* tablet and above*/
+@media (min-width: 1000px) and (max-width: 1279px) {
+  .home-buttons_container .cta-button_primary{
+    margin-right: 0;
+  }
+  .home-buttons_container{
+    justify-content: space-around;
+  }
+  .cta-button_secondary{
+    max-width: 170px;
+  }
+  #home-second-part .home-top div:first-child{
+    justify-content: center;
+  }
+  #home-second-part div:nth-child(1) img:first-child{
+    width:40%;
+    margin-right: 1rem;
+  }
+  #home-second-part div:nth-child(1) .video-thumb{
+    width: 30%;
+    margin-right: 1rem;
+  }
+  #home-second-part div:nth-child(2) img:last-child{
+    width: 40%;
+  }
+  #home-second-part .home-top div:last-child{
+    justify-content: center;
+  }
+  #stats #home-top_stats{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #stats #home-top_stats span.mini-separator{
+    transform:rotate(90deg)
+  }
+  #stats #home-top_stats .mini-separator.invisible{
+    display: none;
+  }
+  #experts .experts-card{
+    border:0;
+    box-shadow: none;
+    background:transparent;
+  }
+  #experts .experts-card video{
+    width: 100%;
+  }
+  #experts .experts-card h3{
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  #experts .experts-card p{
+    font-size: 1.25rem;
+    font-weight: 400;
+  }
+  .section-with_buttons.special{
+    flex-direction: row;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    justify-content: space-around;
+  }
+  .section-with_buttons.special .cta-button_primary{
+    max-width: 260px;
+  }
+  .cta-button_secondary{
+    max-width: 200px;
+  }
+  #features .col-12{
+    order:2
+  }
+  #platform .box{
+    padding-top:10rem;
+    background-position: top center!important;
+  }
+  #platform .box:before{
+    top: 0;
+  }
+  #steps h1{
+    margin:3rem 0;
+    font-weight: 500;
+    font-size: 2.25rem;
+  }
+  #steps h1 span{
+    display:inline;
+  }
+  #faqs{
+    padding-left:4rem;
+    padding-right: 4rem;
+  }
+  #faqs .accordion-flush > .accordion-item{
+    margin-bottom: 1rem;
+  }
+  footer{
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 2rem;
+  }
+  footer div:first-child{
+    width: 53%;
+  }
+  footer h1{
+    text-align: left;
+    padding-top: 0;
+  }
+  footer .footer-social{
+    display: flex;
+    flex-direction: column;
+  }
+  footer p{
+    width: 100%;
+  }
+  footer .footer-navigation ul li{
+    padding: 1rem 2rem;
+    text-align: left;
+  }
+  footer .footer-social ul{
+    flex-direction: column;
+  }
+}

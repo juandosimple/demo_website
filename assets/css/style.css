@@ -904,7 +904,7 @@ footer .footer-social p {
 }
 
 .cta-button_primary:hover .button-text-hover {
-  transform: translateY(-200%);
+  transform: translateY(-170%);
   color: #b8ef36;
 }
 
@@ -913,7 +913,7 @@ footer .footer-social p {
 }
 
 .home-buttons_container .cta-button_primary:hover .button-text-hover {
-  transform: translateY(-170%);
+  transform: translateY(-140%);
 }
 
 .home-buttons_container .cta-button_secondary:hover {

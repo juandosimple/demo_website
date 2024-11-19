@@ -9,6 +9,7 @@
     border-radius: 14px;
     padding-left: 2rem;
     padding-right: 2rem;
+    min-height: 42px;
     max-height: 52px;
     display: flex;
     align-items: center;
@@ -21,6 +22,7 @@
     border-radius: 14px;
     color: #fff !important;
     max-height: 52px;
+    min-height: 42px;
     display: flex;
     align-items: center;
   }

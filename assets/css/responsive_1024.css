@@ -198,4 +198,13 @@
   footer .footer-social ul{
     flex-direction: column;
   }
+  #platform .box h1{
+    padding:1rem 10rem;
+  }
+  #platform .box p{
+    padding:1rem 10rem;
+  }
+  #platform-title h3{
+    padding: 0 14rem
+  }
 }

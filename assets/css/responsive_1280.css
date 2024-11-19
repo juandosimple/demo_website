@@ -7,10 +7,11 @@
     background-color: transparent !important;
     transition: background-color 0.5s ease-in-out; /* Transición suave */
   }
+  
   #page-home .navbar,
   #page-request-demo .navbar {
-    padding: 1rem 4rem;
-}
+    padding: 1rem 6.4rem;
+  }
 
   #home .row {
     display: flex;
@@ -87,13 +88,12 @@
   }
 
   #stats {
-    margin-top:60px
+    margin-top: 60px;
   }
 
-  #stats #home-top_stats{
-    margin:0 auto;
+  #stats #home-top_stats {
+    margin: 0 auto;
   }
-
 
   #stats #home-top_stats div:nth-child(3) {
     order: 4;
@@ -313,12 +313,11 @@
     justify-content: center;
   }
   .section-with_buttons.special a.cta-button_secondary:hover {
-    border-color: #2B8982;
+    border-color: #2b8982;
     -webkit-box-shadow: 0 5px 15px 0 rgba(43, 137, 130, 0.3);
     box-shadow: 0 5px 15px 0 rgba(43, 137, 130, 0.3);
   }
 
- 
   /* Platform */
   #platform {
     display: flex;
@@ -379,7 +378,6 @@
     );
   }
 
-
   #platform .box.first-box {
     background: url("../img/platform-compliance-training.jpg");
     background-size: cover;
@@ -421,7 +419,6 @@
     background-position: center;
   }
 
-
   #platform .box {
     flex: 1;
     max-width: 150px;
@@ -429,7 +426,7 @@
     overflow: hidden;
     position: relative;
     background-color: #333;
-    transition: all .5 ease-in-out;
+    transition: all 0.5 ease-in-out;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -437,9 +434,9 @@
   }
 
   #platform .box:hover {
-    cursor:pointer
+    cursor: pointer;
   }
-  
+
   #platform .box h1 {
     position: absolute;
     color: #fff;
@@ -448,10 +445,10 @@
     transform: rotate(270deg);
     transform-origin: center;
     white-space: nowrap;
-    transition: all .8s ease;
+    transition: all 0.8s ease;
     bottom: 120px;
   }
-  
+
   #platform .box p {
     position: absolute;
     bottom: -50px;
@@ -464,24 +461,28 @@
     transition: all 1s ease;
     padding: 1rem;
   }
-  
+
   #platform .box:before {
     content: "";
     width: 100%;
     height: 100%;
-    background: linear-gradient(to bottom, rgba(234, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(
+      to bottom,
+      rgba(234, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 1) 100%
+    );
   }
-  
+
   #platform .box.expanded {
     flex: 0 0 390px;
     max-width: 100%;
   }
-  
+
   #platform .box.expanded h1 {
     bottom: 190px;
     transform: rotate(360deg);
   }
-  
+
   #platform .box.expanded p {
     opacity: 1;
     transform: translateY(0);
@@ -518,7 +519,7 @@
     width: 100%;
   }
   #experts .experts-card {
-    background-color:transparent;
+    background-color: transparent;
     width: 40%;
     overflow: hidden;
     position: relative;
@@ -576,13 +577,13 @@
   #features .features {
     align-items: center;
     /* margin-top:2rem; */
-    margin-bottom:2rem;
+    margin-bottom: 2rem;
   }
-  
-  #features .col-12{
-    order:unset;
+
+  #features .col-12 {
+    order: unset;
   }
-  
+
   #features .features .features-text,
   #features .features img {
     min-width: auto;

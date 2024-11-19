@@ -60,7 +60,6 @@ body {
 #page-home .navbar .nav-link {
   color: #fff;
   padding: 1.3rem 2rem;
-  font-size: 0.8rem;
 }
 #page-home .navbar #login {
   display: none;
@@ -866,6 +865,8 @@ footer .footer-social p {
   overflow: hidden;
   font-weight: 600;
   color: #b8ef36;
+  font-size: 1.25rem;
+  max-height: 58px;
 }
 .section-with_buttons.special .cta-button_primary {
   position: relative;
@@ -877,6 +878,8 @@ footer .footer-social p {
   background: linear-gradient(317.42deg, #04504e -11.84%, #022221 110.79%);
   font-weight: 600;
   color: #fff;
+  max-height: 68px;
+  font-size: 1.25rem;
 }
 
 .cta-button_primary .button-text,

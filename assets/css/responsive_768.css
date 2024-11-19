@@ -1,9 +1,8 @@
 /* tablet and above*/
 @media (min-width: 769px) {
-  .navbar.fixed-top.navbar-expand-lg.scrolled{
-    top:15px;
-  }
-  #page-home .navbar #login {
+
+  #page-home .navbar #login ,
+  #page-request-demo .navbar #login {
     display: block;
     opacity: 1;
     border: 1px solid #d5d7da;
@@ -14,7 +13,8 @@
     margin-right: 10px;
     color: #fff !important;
   }
-  #page-home .navbar #free-signup {
+  #page-home .navbar #free-signup,
+  #page-request-demo .navbar #free-signup {
     background: linear-gradient(317.42deg, #04504e -11.84%, #022221 110.79%);
     border-radius: 14px;
     color: #fff !important;

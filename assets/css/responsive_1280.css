@@ -7,7 +7,8 @@
     background-color: transparent !important;
     transition: background-color 0.5s ease-in-out; /* Transición suave */
   }
-  #page-home .navbar {
+  #page-home .navbar,
+  #page-request-demo .navbar {
     padding: 1rem 4rem;
 }
 
@@ -323,7 +324,7 @@
     display: flex;
     justify-content: space-around;
     gap: 0;
-    width: 85%;
+    width: 75%;
     margin: 0 auto;
     overflow: hidden;
   }
@@ -478,7 +479,7 @@
   
   #platform .box.expanded h1 {
     bottom: 190px;
-    transform: rotate(0deg);
+    transform: rotate(360deg);
   }
   
   #platform .box.expanded p {

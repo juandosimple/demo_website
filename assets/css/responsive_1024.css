@@ -1,7 +1,7 @@
 @media (min-width: 1000px) {
   #page-home .navbar .nav-link.login-button {
     display: none!important;
-}
+  } 
 }
 /* tablet and above*/
 @media (min-width: 1024px) {

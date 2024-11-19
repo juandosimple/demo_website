@@ -1,5 +1,8 @@
 /* tablet and above*/
 @media (min-width: 769px) {
+  .navbar.fixed-top.navbar-expand-lg.scrolled{
+    top:15px;
+  }
   #page-home .navbar #login {
     display: block;
     opacity: 1;

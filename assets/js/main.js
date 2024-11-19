@@ -8,7 +8,6 @@ window.addEventListener("scroll", function () {
   }
 });
 
-
 // TITLE ANIMATION
 const texts = document.querySelectorAll(".animated-text");
 let index = 0;
@@ -17,10 +16,10 @@ function changeText() {
   if (index > 0) {
     texts[index - 1].classList.remove("show"); // Oculta la palabra anterior
   }
-  
+
   texts[index].classList.add("show"); // Muestra la palabra actual
   index++;
-  
+
   if (index < texts.length) {
     setTimeout(changeText, 2000); // Cambia cada 2 segundos
   }
@@ -63,49 +62,67 @@ setTimeout(changeText, 000); // Espera antes de iniciar el primer cambio
 //   });
 // });
 
-document.addEventListener('DOMContentLoaded', function() {
-  const boxes = document.querySelectorAll('.box');
-  let lastExpandedBox = document.querySelector('.box.expanded');  // Initialize with the first box
-  
-  boxes.forEach(box => {
-    box.addEventListener('click', () => {
+document.addEventListener("DOMContentLoaded", function () {
+  const boxes = document.querySelectorAll(".box");
+  let lastExpandedBox = document.querySelector(".box.expanded"); // Initialize with the first box
+
+  boxes.forEach((box) => {
+    box.addEventListener("click", () => {
       // If there's an expanded box and it's not the clicked one, collapse it
       if (lastExpandedBox && lastExpandedBox !== box) {
-        lastExpandedBox.classList.remove('expanded');
+        lastExpandedBox.classList.remove("expanded");
       }
       // Toggle expand on the clicked box
-      box.classList.toggle('expanded');
+      box.classList.toggle("expanded");
       // Update the reference to the last expanded box
-      lastExpandedBox = box.classList.contains('expanded') ? box : null;
+      lastExpandedBox = box.classList.contains("expanded") ? box : null;
     });
   });
 
-  // VIDEO BUTTON
-  const videoContainers = document.querySelectorAll('.video-container');
+  // MENU CLOSE
+     // Selecciona todos los enlaces dentro del menú
+     const menuLinks = document.querySelectorAll('.nav-link');
 
-  videoContainers.forEach(container => {
-    const video = container.querySelector('.video');
-    const playButton = container.querySelector('.play-button');
+     // Recorre todos los enlaces y agrega un evento de clic
+     menuLinks.forEach(link => {
+       link.addEventListener('click', function () {
+         // Selecciona el contenedor del menú
+         const navbarCollapse = document.getElementById('navbarSupportedContent');
+ 
+         // Si el menú está abierto, ciérralo
+         if (navbarCollapse.classList.contains('show')) {
+           const collapse = new bootstrap.Collapse(navbarCollapse, {
+             toggle: false // No alterna el estado, solo lo cierra
+           });
+           collapse.hide(); // Cierra el menú
+         }
+       });
+     });
+
+  // VIDEO BUTTON
+  const videoContainers = document.querySelectorAll(".video-container");
+
+  videoContainers.forEach((container) => {
+    const video = container.querySelector(".video");
+    const playButton = container.querySelector(".play-button");
 
     // Inicialmente, los controles están ocultos
     video.controls = false;
 
-    playButton.addEventListener('click', (event) => {
+    playButton.addEventListener("click", (event) => {
       event.preventDefault(); // Evita la acción predeterminada del enlace
       video.play();
       video.controls = true; // Muestra los controles
-      playButton.classList.add('hidden'); // Oculta el botón de reproducción
+      playButton.classList.add("hidden"); // Oculta el botón de reproducción
     });
 
-    video.addEventListener('pause', () => {
-      playButton.classList.remove('hidden');
+    video.addEventListener("pause", () => {
+      playButton.classList.remove("hidden");
     });
 
-    video.addEventListener('ended', () => {
-      playButton.classList.remove('hidden');
+    video.addEventListener("ended", () => {
+      playButton.classList.remove("hidden");
       video.controls = false; // Oculta los controles nuevamente al terminar
     });
   });
-
 });
-

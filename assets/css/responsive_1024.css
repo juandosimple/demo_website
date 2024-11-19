@@ -1,5 +1,6 @@
 @media (min-width: 1000px) {
-  #page-home .navbar .nav-link.login-button {
+  #page-home .navbar .nav-link.login-button ,
+  #page-request-demo .navbar .nav-link.login-button {
     display: none!important;
   } 
 }
@@ -7,10 +8,12 @@
 @media (min-width: 1024px) {
 
   /* navigation */
-  #page-home .navbar {
+  #page-home .navbar,
+  #page-request-demo .navbar {
     padding: 1rem 3rem;
   }
-  #page-home .navbar > .container-fluid{
+  #page-home .navbar > .container-fluid,
+  #page-request-demo .navbar > .container-fluid{
     justify-content: center;
     padding: 0;
   }

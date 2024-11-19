@@ -89,5 +89,9 @@
   #platform .box.expanded h1{
     bottom: 240px;
   }
+  #home section#video-part h1{
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
 }
 /* 1920 and above*/

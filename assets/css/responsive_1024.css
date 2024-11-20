@@ -16,7 +16,8 @@
     justify-content: center;
     padding: 0;
   }
-  #page-home .navbar .nav-link {
+  #page-home .navbar .nav-link ,
+  #page-request-demo .navbar .nav-link {
     padding: 0.5rem;
   }
   /* navigation */

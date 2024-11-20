@@ -1,6 +1,7 @@
 /* 1920 and above*/
 @media (min-width: 1800px) {
-  #page-home .navbar {
+  #page-home .navbar ,
+  #page-request-demo .navbar {
     padding: 1rem 12rem;
   }
   #home-background {
